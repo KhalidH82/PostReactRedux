@@ -4,11 +4,18 @@ import Post from '../components/Post';
 import { deletePost } from '../actions';
 
 function PostList({ posts, onDelete }) {
+  if(!posts.length) {
+    return (
+      <div>
+        No Posts
+      </div>
+    )
+  }
   return (
     <div>
       {posts.map(post => {
         return (
-          <Post post={ post } onDelete={ onDelete } key={ post.id } />
+          <Post post={ post } onDelete={ onDelete } key={ post._id } />
         );
       })}
     </div>
