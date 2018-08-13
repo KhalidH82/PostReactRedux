@@ -7,5 +7,6 @@ Installation Instructions
 3. Install dependancies
 4. CD into src and run yarn start
 5. Open new terminal and CD into server and run nodemon
+6. Go to localhost:3000 to use application
 
 
