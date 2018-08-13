@@ -1,5 +1,5 @@
 This is a simple React/Redux application where users can create and delete posts which are connected to a MongoDB. This application is also styled with Bootstrap.
-
+<a href="https://khalidh82.github.io/postreactredux/"><img src="post.png"></a>
 Installation Instructions
 
 1. Clone Repo
